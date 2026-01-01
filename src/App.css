@@ -1,0 +1,124 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Malgun Gothic', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+.input-group {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.save-btn {
+  background-color: #2ecc71;
+}
+.memo-list {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.memo-item {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 5px solid #2ecc71;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.admin-btn {
+  text-decoration: none;
+  background: #eee;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+}
+.draw-btn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #ff4757;
+}
+.admin-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product-item {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.del-btn {
+  background-color: #ff4757;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+/* App.css */
+@media (max-width: 600px) {
+  h1 { font-size: 1.8rem !important; }
+  .winner-reveal img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .container {
+    padding: 20px 10px !important;
+  }
+}
